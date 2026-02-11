@@ -1,0 +1,188 @@
+/* CSS by Gwen Selfridge */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*root variables*/
+:root{
+    --tl :#4CA7C0;
+    --prpl: #484FB7;
+    --lvdr: #6B8FE7;
+    --ylw: #E9BB57; 
+    --pk:#D9526F;
+    --dk-gry:#1E1E1E; 
+    --wht:#ffffff; 
+}
+
+/* GLOBAL STYLES */
+
+html{
+    max-width: 450px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+header{
+    background-color: var(--prpl);
+    color: var(--wht);
+    text-align: center;
+}
+
+header h1{
+    font-size: 3em;
+    font-family: 'Kavoon', serif;
+    padding-top: 2rem;
+}
+
+header p{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+nav{
+    background-color: var(--ylw);
+    text-align: center;
+    padding: 1rem;
+}
+
+nav h2{
+    font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav li{
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: var(--wht);
+}
+
+nav a{
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+main h2{
+    font-size: 2rem;
+    font-family: 'Kavoon', serif;
+    color: var(--wht)
+}
+
+main h3{
+    font-size: 1.5em;
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+    color: var(--ylw);
+}
+
+#ourservices{
+    background-color: var(--prpl);
+    height: 100%;
+}
+
+#ourservices h2{
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+#onecoaching h3,
+#grcoaching h3,
+#workshop h3,
+#online h3{
+    padding-left: 0.5rem;
+}
+
+#onecoaching section,
+#grcoaching section,
+#workshop section,
+#online section{
+    background-color: var(--wht);
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+#onecoaching img,
+#grcoaching img,
+#workshop img,
+#online img{
+    padding: 0.5rem 0;
+}
+
+#onecoaching h4,
+#grcoaching h4,
+#workshop h4,
+#online h4{
+    font-family: 'inter', sans-serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: var(--prpl);
+    padding: 0.5rem 0rem;
+}
+
+#onecoaching p,
+#grcoaching p,
+#workshop p,
+#online p{
+    font-family: 'inter', sans-serif;
+    line-height: 1.5em;
+}
+
+#why-choose{
+    background-color: var(--pk)
+}
