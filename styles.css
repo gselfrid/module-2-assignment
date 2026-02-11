@@ -286,7 +286,7 @@ td{
     margin: 1rem;
     background-color: var(--wht);
     justify-content: center;
-    padding: 1rem;
+    padding: 1.35rem;
     border-radius: 15px;
     filter: drop-shadow(4px 4px 1.5px rgba(0, 0, 0, 0.8));
 }
